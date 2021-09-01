@@ -1,0 +1,173 @@
+*{
+    font-family: 'cambria', 'serif';
+}
+
+.fondo-negro{
+    background-color:#000;
+}
+.fondo-rojo{
+    background-color: #f00;
+}
+.fondo-verde{
+    background-color: #0a0;
+}
+.fondo-azul{
+    background-color: #00b;
+}
+.fondo-morado{
+    background-color: #c20ba3;
+}
+.fondo-amarillo{
+    background-color: #ff0;
+}
+
+.square-list{
+    list-style-type: square;
+}
+
+.disp-block{
+    display:block;
+}
+
+.disp-inline{
+    display:inline;
+}
+
+.disp-inline-block{
+    display:inline-block;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position:absolute;
+}
+
+.titles-font{
+    font-family: 'BlackChancery','cambria','serif';
+}
+
+.align-center{
+    text-align:center;
+}
+
+.top-separation{
+    margin-top: 7%;
+}
+
+.bottom-padding{
+    padding-bottom: 3%;
+}
+
+.float-left{ /* todo:linea para arreglar aside*/
+    float:left;
+}
+
+#container{
+    width: 100vw;
+    height: 220vh;
+}
+
+#container__encabezado{
+    background-color: #658D9D;
+    width: 100vw;
+    height: 35vh;
+}
+
+#container__TextEncabezado{
+    width: 65vw;
+    top: 21.7%;
+    left:1.5%;
+    font-size: 160%;
+}
+
+#container__nombre{
+    font-size: 220%;
+    top:15%;
+}
+
+#container__aside{
+    background-color: #CFCFCF;
+    width: 30vw;
+    height: 205vh;
+    top: 3.5%;
+    right: 3%;
+    font-size: 130%;
+}
+
+#container__perfil{
+    width: 55%;
+    margin: 3% auto;
+}
+
+#container__aside h3{
+    font-size: 145%;
+}
+
+.left-separation{
+    padding-left: 3%;
+}
+
+#container__skype img{
+    width: 5.5%;
+}
+
+#container__linkedin img{
+    width: 5.5%;
+}
+
+.links-no-color{
+    color:#000;
+    text-decoration: none;
+}
+
+#container__aside ul{
+    left: 8%;
+}
+
+.col-right{
+    width: 50%;
+}
+
+.col-left{
+    width: 38%;
+    text-align: right;
+}
+
+#container__content{
+    width: 65vw;
+    height: 181.5vh;
+    top: 14.2%;
+    left: 1.5%;
+    text-align: justify;
+    font-size: 130%;
+}
+
+#container__content h3{
+    background-color: #FF7B29;
+    font-size: 145%;
+    padding: .7%;
+}
+
+#container__content ul{
+    width: 97%;
+    left: 3%;
+}
+
+.experience-colum-left{
+    width: 60%;
+}
+
+.experience-colum-right{
+    width: 40%;
+
+}
+.education-colum-left{
+    width: 50%;
+}
+
+.education-colum-right{
+    width: 50%;
+}
