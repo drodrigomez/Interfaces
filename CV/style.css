@@ -2,25 +2,6 @@
     font-family: 'cambria', 'serif';
 }
 
-.fondo-negro{
-    background-color:#000;
-}
-.fondo-rojo{
-    background-color: #f00;
-}
-.fondo-verde{
-    background-color: #0a0;
-}
-.fondo-azul{
-    background-color: #00b;
-}
-.fondo-morado{
-    background-color: #c20ba3;
-}
-.fondo-amarillo{
-    background-color: #ff0;
-}
-
 .square-list{
     list-style-type: square;
 }
@@ -61,7 +42,7 @@
     padding-bottom: 3%;
 }
 
-.float-left{ /* todo:linea para arreglar aside*/
+.float-left{
     float:left;
 }
 
