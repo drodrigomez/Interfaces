@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,22 +13,28 @@
     <link rel="icon" sizes="192x192" href="./img/favicon.svg">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="nav">
             <div id="logo-container">
                 <img src="img/logo.svg" alt="Gallery images logo" title="logo">
                 <p class="title">Daniel Rodriguez</p>
             </div>
+            <div class="switch">
+                <div id="tooggle-theme" class="tooggle-theme">
+                    <img src="img/dark.svg" id="tooggle-icon" alt="Dark Mode Icon" class="tooggle-theme__icon" title="Theme">
+                    <p id="tooggle-text" class="tooggle-theme__text">Activar Dark</p>
+                </div>
+            </div>
             <div id="menu-container">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li>Información</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Information</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main id="main"></main>
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
